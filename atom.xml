@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-02T03:04:41.435Z</updated>
+  <updated>2016-04-02T13:30:40.266Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>why it start?</title>
+    <link href="http://yoursite.com/2016/04/02/why-it-start/"/>
+    <id>http://yoursite.com/2016/04/02/why-it-start/</id>
+    <published>2016-04-02T13:03:17.000Z</published>
+    <updated>2016-04-02T13:30:40.266Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;0x01-Write-Something&quot;&gt;&lt;a href=&quot;#0x01-Write-Something&quot; class=&quot;headerlink&quot; title=&quot;#0x01 Write Something&quot;&gt;&lt;/a&gt;#0x01 Write Something&lt;/h2&gt;&lt;p&gt;好不容易把blog搭的差不多了（其实都有教程…），写这篇主要是练练markdown语法的。嗯。感觉现在自己身边个人公众号的氛围还是蛮热烈的，但讲道理来说 as a coder 最好还是能有一个自己的技术博客吧…&lt;/p&gt;
+&lt;h2 id=&quot;0x02&quot;&gt;&lt;a href=&quot;#0x02&quot; class=&quot;headerlink&quot; title=&quot;#0x02&quot;&gt;&lt;/a&gt;#0x02&lt;/h2&gt;&lt;p&gt;markdown的语法 我主要还是就会个#号键，慢慢来吧..这个是用github+hexo进行搭建的，主题是Next，等过几日有钱有一定几率去买个域名折腾个服务器blablah….&lt;/p&gt;
+&lt;h2 id=&quot;0x03&quot;&gt;&lt;a href=&quot;#0x03&quot; class=&quot;headerlink&quot; title=&quot;#0x03&quot;&gt;&lt;/a&gt;#0x03&lt;/h2&gt;&lt;p&gt;说是技术博客但是还是会有一定几率出现其他的内容的，技术的话，日常学习遇到的坑，很好的东西的收藏以及碎片化知识分类的整理都会include.&lt;/p&gt;
+&lt;h2 id=&quot;0x04&quot;&gt;&lt;a href=&quot;#0x04&quot; class=&quot;headerlink&quot; title=&quot;#0x04&quot;&gt;&lt;/a&gt;#0x04&lt;/h2&gt;&lt;p&gt;暂时想不到了。。先这些吧&lt;/p&gt;
+&lt;h3 id=&quot;2016-04-12&quot;&gt;&lt;a href=&quot;#2016-04-12&quot; class=&quot;headerlink&quot; title=&quot;2016-04-12&quot;&gt;&lt;/a&gt;2016-04-12&lt;/h3&gt;&lt;p&gt;TODO：&lt;br&gt;&lt;br&gt;1.postman测试接口&lt;br&gt;&lt;br&gt;2.blog评论功能开通&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;0x01-Write-Something&quot;&gt;&lt;a href=&quot;#0x01-Write-Something&quot; class=&quot;headerlink&quot; title=&quot;#0x01 Write Something&quot;&gt;&lt;/a&gt;#0x01 Write Something&lt;/h2
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>First snRNA&#39;s article</title>
