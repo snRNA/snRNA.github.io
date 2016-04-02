@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-02T02:30:52.715Z</updated>
+  <updated>2016-04-02T03:04:41.435Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>First snRNA&#39;s article</title>
+    <link href="http://yoursite.com/2016/04/02/First-snRNA-s-article/"/>
+    <id>http://yoursite.com/2016/04/02/First-snRNA-s-article/</id>
+    <published>2016-04-02T03:02:02.000Z</published>
+    <updated>2016-04-02T03:04:41.435Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;My-First-article&quot;&gt;&lt;a href=&quot;#My-First-article&quot; class=&quot;headerlink&quot; title=&quot;My First article&quot;&gt;&lt;/a&gt;My First article&lt;/h1&gt;&lt;p&gt;This is my personal blog using hexo and github. I am still praticing it. So it may be not beautiful. Please look forward to the update.&lt;/p&gt;
+&lt;p&gt;##张乐是狗&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;My-First-article&quot;&gt;&lt;a href=&quot;#My-First-article&quot; class=&quot;headerlink&quot; title=&quot;My First article&quot;&gt;&lt;/a&gt;My First article&lt;/h1&gt;&lt;p&gt;This is my per
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
