@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-02T13:30:40.266Z</updated>
+  <updated>2016-06-16T03:37:31.978Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Answer for CS network quizzes</title>
+    <link href="http://yoursite.com/2016/06/16/Answer-for-CS-network-quizzes/"/>
+    <id>http://yoursite.com/2016/06/16/Answer-for-CS-network-quizzes/</id>
+    <published>2016-06-16T03:29:13.000Z</published>
+    <updated>2016-06-16T03:37:31.978Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;Answer-for-CS-network-quizzes&quot;&gt;&lt;a href=&quot;#Answer-for-CS-network-quizzes&quot; class=&quot;headerlink&quot; title=&quot;Answer for CS network quizzes&quot;&gt;&lt;/a&gt;Answer for CS network quizzes&lt;/h1&gt;&lt;p&gt;Quiz 1   &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;B 2. C 3. A 4. A 5. A 6. D 7. A 8. D  9. D 10. D&lt;br&gt;&lt;a href=&quot;https://quizlet.com/106378313/cse-4344-quiz4-flash-cards/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;部分参考来源&lt;/a&gt;  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Quiz 2  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;D 2. B. 3. D 4. A 5. C 6. D 7. A 8. BC 9. D 10. C&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Quiz 3  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;D 2. D 3. C 4. B 5. D 6. A 7. D 8. B 9. A 10. C&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Quiz 4&lt;br&gt;1~5: FFFTT&lt;br&gt;6~10: FTFTF&lt;/p&gt;
+&lt;p&gt;Quiz 5&lt;br&gt;1~5: TTFFF&lt;br&gt;6~10: FTTTT&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://studymooc.nbu.edu.cn/nodedetailcontroller/visitnodedetail?knowledgeId=647739&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;部分参考来源&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quiz 6&lt;br&gt;1~5: FFFFT&lt;br&gt;6~10: TFFTT&lt;/p&gt;
+&lt;h2 id=&quot;后面的题目答案缺失&quot;&gt;&lt;a href=&quot;#后面的题目答案缺失&quot; class=&quot;headerlink&quot; title=&quot;后面的题目答案缺失&quot;&gt;&lt;/a&gt;后面的题目答案缺失&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;有错的麻烦指出&lt;/strong&gt;&lt;br&gt;&lt;del&gt;~我不管哟&lt;/del&gt;~&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Answer-for-CS-network-quizzes&quot;&gt;&lt;a href=&quot;#Answer-for-CS-network-quizzes&quot; class=&quot;headerlink&quot; title=&quot;Answer for CS network quizzes&quot;&gt;&lt;/a
+    
+    </summary>
+    
+    
+      <category term="2016" scheme="http://yoursite.com/tags/2016/"/>
+    
+      <category term="computer_network" scheme="http://yoursite.com/tags/computer-network/"/>
+    
+  </entry>
   
   <entry>
     <title>why it start?</title>
