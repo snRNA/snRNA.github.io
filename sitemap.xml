@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/08/22/Web-For-Pentester/</loc>
+    
+    <lastmod>2016-08-22T15:40:51.323Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/06/16/Answer-for-CS-network-quizzes/</loc>
     
     <lastmod>2016-06-16T03:37:31.978Z</lastmod>

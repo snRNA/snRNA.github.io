@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-16T03:37:31.978Z</updated>
+  <updated>2016-08-22T15:40:51.323Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web_For_Pentester</title>
+    <link href="http://yoursite.com/2016/08/22/Web-For-Pentester/"/>
+    <id>http://yoursite.com/2016/08/22/Web-For-Pentester/</id>
+    <published>2016-08-22T15:32:41.000Z</published>
+    <updated>2016-08-22T15:40:51.323Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Web-For-Penterser-I&quot;&gt;&lt;a href=&quot;#Web-For-Penterser-I&quot; class=&quot;headerlink&quot; title=&quot;Web For Penterser I&quot;&gt;&lt;/a&gt;Web For Penterser I&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;本篇主要用于记录使用pentersterlab的学习历程，缘起大二小学期的密码学课程实践中的ECB附加实验 &lt;a href=&quot;https://sec.cuc.edu.cn/huangwei/wiki/teaching_ac_2016_calendar.html#toc_5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;&lt;br&gt;。之后看到这个网站&lt;a href=&quot;https://pentesterlab.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;penterlab&lt;/a&gt;,遂使用上面的教程学习，本文是关于web方面的基础。   &lt;/p&gt;
+&lt;p&gt;ps:本篇先讲解使用方法，下载对应课程的ISO镜像（一般为32位的Debian系统），在虚拟机中使用就好（类似于liveCD的形式，各种环境已在ISO中配好），在外部就可以访问（注意http-only要在同一网段，或者虚拟机NAT上网采用端口转发）  &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;network.jpg&quot; alt=&quot;network_set&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;主机访问localhost即可进入页面：   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;localhost.png&quot; alt=&quot;home_page&quot;&gt;   &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;XSS&quot;&gt;&lt;a href=&quot;#XSS&quot; class=&quot;headerlink&quot; title=&quot;XSS&quot;&gt;&lt;/a&gt;XSS&lt;/h3&gt;&lt;p&gt;三种常见的XSS类型不多赘述，直接进题目   &lt;/p&gt;
+&lt;h4 id=&quot;example1&quot;&gt;&lt;a href=&quot;#example1&quot; class=&quot;headerlink&quot; title=&quot;example1&quot;&gt;&lt;/a&gt;example1&lt;/h4&gt;&lt;p&gt;无过滤的最简单的形式，传入的参数是name，猜想后端php应该是直接echo了 $_GET[‘name’]。&lt;br&gt;&lt;strong&gt;payload:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;?name=&amp;lt;scRiPT&amp;gt;alert(1);&amp;lt;/sCRIpt&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;即可实现弹窗显示1的效果。  &lt;/p&gt;
+&lt;h4 id=&quot;example2&quot;&gt;&lt;a href=&quot;#example2&quot; class=&quot;headerlink&quot; title=&quot;example2&quot;&gt;&lt;/a&gt;example2&lt;/h4&gt;&lt;p&gt;例2对于script这个关键词进行了过滤但是可以使用例如sCRIpt这样的大小写混淆的方式进行XSS绕过，利用对于大小写没有进行过滤且html语言大小写的不敏感实现。&lt;br&gt;&lt;strong&gt;payload:&lt;/strong&gt;  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;?name=&amp;lt;scRiPT&amp;gt;alert(1);&amp;lt;/sCRIpt&amp;gt;&lt;/code&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;example3&quot;&gt;&lt;a href=&quot;#example3&quot; class=&quot;headerlink&quot; title=&quot;example3&quot;&gt;&lt;/a&gt;example3&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;wait to be continued….&lt;/strong&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Web-For-Penterser-I&quot;&gt;&lt;a href=&quot;#Web-For-Penterser-I&quot; class=&quot;headerlink&quot; title=&quot;Web For Penterser I&quot;&gt;&lt;/a&gt;Web For Penterser I&lt;/h2&gt;&lt;hr&gt;
+
+    
+    </summary>
+    
+    
+      <category term="2016" scheme="http://yoursite.com/tags/2016/"/>
+    
+      <category term="web" scheme="http://yoursite.com/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>Answer for CS network quizzes</title>

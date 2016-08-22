@@ -228,6 +228,120 @@
             
               
                 
+                <a class="post-title-link" href="/2016/08/22/Web-For-Pentester/" itemprop="url">
+                  Web_For_Pentester
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-08-22T23:32:41+08:00" content="2016-08-22">
+              2016-08-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/08/22/Web-For-Pentester/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/22/Web-For-Pentester/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Web-For-Penterser-I"><a href="#Web-For-Penterser-I" class="headerlink" title="Web For Penterser I"></a>Web For Penterser I</h2><hr>
+<p>本篇主要用于记录使用pentersterlab的学习历程，缘起大二小学期的密码学课程实践中的ECB附加实验 <a href="https://sec.cuc.edu.cn/huangwei/wiki/teaching_ac_2016_calendar.html#toc_5" target="_blank" rel="external">here</a><br>。之后看到这个网站<a href="https://pentesterlab.com" target="_blank" rel="external">penterlab</a>,遂使用上面的教程学习，本文是关于web方面的基础。   </p>
+<p>ps:本篇先讲解使用方法，下载对应课程的ISO镜像（一般为32位的Debian系统），在虚拟机中使用就好（类似于liveCD的形式，各种环境已在ISO中配好），在外部就可以访问（注意http-only要在同一网段，或者虚拟机NAT上网采用端口转发）  </p>
+<hr>
+<p><img src="network.jpg" alt="network_set">  </p>
+<p>主机访问localhost即可进入页面：   </p>
+<p><img src="localhost.png" alt="home_page">   </p>
+<hr>
+<h3 id="XSS"><a href="#XSS" class="headerlink" title="XSS"></a>XSS</h3><p>三种常见的XSS类型不多赘述，直接进题目   </p>
+<h4 id="example1"><a href="#example1" class="headerlink" title="example1"></a>example1</h4><p>无过滤的最简单的形式，传入的参数是name，猜想后端php应该是直接echo了 $_GET[‘name’]。<br><strong>payload:</strong></p>
+<blockquote>
+<p><code>?name=&lt;scRiPT&gt;alert(1);&lt;/sCRIpt&gt;</code></p>
+</blockquote>
+<p>即可实现弹窗显示1的效果。  </p>
+<h4 id="example2"><a href="#example2" class="headerlink" title="example2"></a>example2</h4><p>例2对于script这个关键词进行了过滤但是可以使用例如sCRIpt这样的大小写混淆的方式进行XSS绕过，利用对于大小写没有进行过滤且html语言大小写的不敏感实现。<br><strong>payload:</strong>  </p>
+<blockquote>
+<p><code>?name=&lt;scRiPT&gt;alert(1);&lt;/sCRIpt&gt;</code>  </p>
+</blockquote>
+<h4 id="example3"><a href="#example3" class="headerlink" title="example3"></a>example3</h4><p><strong>wait to be continued….</strong></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/06/16/Answer-for-CS-network-quizzes/" itemprop="url">
                   Answer for CS network quizzes
                 </a>
@@ -661,7 +775,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -671,7 +785,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
