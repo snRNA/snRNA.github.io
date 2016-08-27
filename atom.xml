@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-26T16:10:29.973Z</updated>
+  <updated>2016-08-27T13:40:43.695Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Web_For_Pentester</title>
-    <link href="http://yoursite.com/2016/08/22/Web-For-Pentester/"/>
-    <id>http://yoursite.com/2016/08/22/Web-For-Pentester/</id>
-    <published>2016-08-22T15:32:41.000Z</published>
-    <updated>2016-08-26T16:10:29.973Z</updated>
+    <link href="http://yoursite.com/2016/08/27/Web-For-Pentester/"/>
+    <id>http://yoursite.com/2016/08/27/Web-For-Pentester/</id>
+    <published>2016-08-27T13:30:11.000Z</published>
+    <updated>2016-08-27T13:40:43.695Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Web-For-Penterser-I&quot;&gt;&lt;a href=&quot;#Web-For-Penterser-I&quot; class=&quot;headerlink&quot; title=&quot;Web For Penterser I&quot;&gt;&lt;/a&gt;Web For Penterser I&lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;本篇主要用于记录使用pentersterlab的学习历程，缘起大二小学期的密码学课程实践中的ECB附加实验 &lt;a href=&quot;https://sec.cuc.edu.cn/huangwei/wiki/teaching_ac_2016_calendar.html#toc_5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;&lt;br&gt;。之后看到这个网站&lt;a href=&quot;https://pentesterlab.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;penterlab&lt;/a&gt;,遂使用上面的教程学习，本文是关于web方面的基础。   &lt;/p&gt;
@@ -57,7 +57,9 @@
     
       <category term="2016" scheme="http://yoursite.com/tags/2016/"/>
     
-      <category term="Web，XSS" scheme="http://yoursite.com/tags/Web%EF%BC%8CXSS/"/>
+      <category term="XSS" scheme="http://yoursite.com/tags/XSS/"/>
+    
+      <category term="Web" scheme="http://yoursite.com/tags/Web/"/>
     
   </entry>
   
